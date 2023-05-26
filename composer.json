@@ -1,0 +1,20 @@
+{
+    "name": "buda/portafolio",
+    "description": "Proyecto PHP 8, MVC, SQL, SASS, Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models"  
+        }
+    },
+    "authors": [
+        {
+            "name": "Johan Moreno"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
